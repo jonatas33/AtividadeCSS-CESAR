@@ -1,0 +1,69 @@
+ /* Para personalisar tudo que está dentro do "Bory" de uma só vez.*/ 
+body {
+    color: white;  /* color é para aplicar a cor da fonte*/ 
+    background-color: black;  /* background-color é para aplicar cor de fundo*/ 
+    font-family: Arial, Helvetica, sans-serif; /* Para formatação de fonte desejada*/
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center; /* Para alinhar os itens ao centro */
+    padding: 16px; /* Para afastar o texto do topo e lado */
+
+}
+
+a { /* Para formatação do elemento "a" pois sem as personalizações , ficam azul e sublinhado */
+    color: white;
+    text-decoration: none; /* Para retirar o sublinhado  do texto */
+}
+
+header img {
+    width: 1200px; /* Para largura da imagem*/
+    height: 200px; /* Para altura da imagem*/
+    border: 5px solid rgb(185, 65, 17); /* Para colocar bordar ao redor do item*/
+
+}
+
+.center { /* Sempre que for chamar uma classe no CSS , deve-se colocar o " . " antes */
+
+    text-align: center;
+
+}
+h2 {
+    text-align: justify; /* Para deixar o texto em h2 justificado */
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a {
+    margin: 20px;
+}
+
+footer p {
+    margin: 2px;
+}
+
+.geral {
+    padding: 0px 50px; /* Para deixar 0px de distancia em cima e embaixo e 50px nas laterais */
+}
+
+nav a:hover {
+    color: darkorange;
+}
+
+footer a:hover {
+    color: darkorange;
+}
